@@ -1,6 +1,5 @@
 import boto3
 import yaml
-import pprint
 
 import datetime
 import pytz
