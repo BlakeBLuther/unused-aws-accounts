@@ -1,9 +1,9 @@
+# Config yaml file
+config.yaml
+
 # VSCode template from https://github.com/github/gitignore
+.vscode
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
