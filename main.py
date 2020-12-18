@@ -107,7 +107,7 @@ def user_string_extract(user):
         return (
             user[0]['UserName'],
             user[0]['CreateDate'].strftime('%d %b %y'),
-            ''
+            'Never'
         )
 
 
