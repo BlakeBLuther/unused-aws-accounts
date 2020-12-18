@@ -122,7 +122,7 @@ if __name__ == "__main__":
             iam_client = session.client('iam')
             
             users = get_all_results(iam_client.list_users)
-            max_age = datetime.timedelta(days=30)
+            max_age = datetime.timedelta(days=90)
             unused_users = get_unused_users(users, max_age)
             print("-----")
             print(f"Unused {prof} users:")
